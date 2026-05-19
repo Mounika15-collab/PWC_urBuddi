@@ -5,9 +5,6 @@ import fs from 'fs';
 import path from 'path';
 
 export async function fillInput(locator: Locator, value: string | undefined): Promise<void> {
-  // await locator.waitFor({ state: 'visible' });
-  // await locator.fill(value);
-
   await locator.waitFor({ state: 'visible' });
   if (!value) {
     throw new Error('fillInput: value is undefined or empty');

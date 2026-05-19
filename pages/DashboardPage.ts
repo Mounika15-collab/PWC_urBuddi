@@ -136,12 +136,3 @@ export async function clickOnShowLessButton(dashboard:Dashboard){
   await expect(dashboard.showLessButton).toBeVisible();
   await clickElement(dashboard.showLessButton);
 }
-
-
-// export async function verifyEmployeeBirthday(dashboard:Dashboard){
-//   const data = getSharedData(testData.employeeDetails.sharedEmployeeJsonFile);
-//   const fullName = `${data.firstname} ${data.lastname}`;
-//   const birthdayList = await getList(dashboard.birthdayCards);
-//   const isPresent = birthdayList.some(item => item.includes(fullName));
-//   expect(isPresent).toBeTruthy();
-// }
