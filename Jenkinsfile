@@ -17,7 +17,7 @@ pipeline {
         stage('Run Playwright Tests') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    bat 'npx playwright test tests/Employee.spec.ts"'
+                    bat 'npx playwright test"'
                 }
             }
         }
