@@ -33,6 +33,6 @@ export async function clickOnLoginButton(page: Page): Promise<void>
 export async function verifyDashboardVisibility(page: Page): Promise<void> 
 {
   const locators = getLoginLocators(page);
-  await page.waitForLoadState('networkidle');
+  await page.waitForLoadState('load');
   await expect(locators.addHolidaysButton).toBeVisible({ timeout: 20000 });
 }
