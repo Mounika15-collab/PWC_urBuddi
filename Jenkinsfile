@@ -1,8 +1,8 @@
 pipeline {
     agent any
     
-    tools {
-        // This must match the exact name of your NodeJS installation in Manage Jenkins -> Tools
+    tools 
+    {
         nodejs 'NodeJS' 
     }
 
