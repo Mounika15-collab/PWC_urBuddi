@@ -1,0 +1,176 @@
+{
+    "login_Data": {
+        "url": "/login",
+        "username": "mounika7rt890@gmail.com",
+        "password": "Mounika@123"
+    },
+
+    "employeeDetails":
+    {
+        "password":"abcd@123",
+        "role":"HR",
+        "dob":"2003-02-09",
+        "joiningDate":"2025-12-04",
+        "pastExperience":"32",
+        "qualification":"B.Tech",
+        "department":"CSE", 
+        "gender":"Male",
+        "mobileNumber":"8976589760",
+        "bloodgroup":"A+",
+        "designation":"QA Tester",
+        "UANNumber":"UAN123456",
+        "salary":"30000",
+        "location":"Banglore",
+        "reportingTo":"mounika7rt890@gmail.com",
+        "certificates": ["10th","Intermediate","Degree","PG","Original Degree"],
+        "sharedEmployeeJsonFile":"testdata/DynamicData.json",
+        "employeeDataJsonFile":"testdata/StaticData.json",
+        "Total Leaves":"12",
+        "Utilized Leaves":"0",
+        "Balance Leaves":"12",
+        "Leaves Left":"0",
+        "Extra Work":"0",
+        "employeeColumns": [
+                            { "key": "empid", "colId": "id", "header": "EMP ID" },
+                            { "key": "name", "colId": "fullName", "header": "NAME" }]
+    },
+
+     "excelData":{
+        "employeeFile": "./testdata/EmployeeData.xlsx",
+        "employeeSheet": "Employees"
+    },  
+
+     "invalidEmployeeDetails":{
+        "invalidMobileNumber":"45879658965",
+        "invalidPassword":"abcdefg"    
+    },
+
+    "importedEexcelData":{
+        "uploadFile": "testdata/sample_employee_details_T001.xlsx",
+        "uploadmultipleDataFile":"testdata/generated_employee_details.xlsx",
+        "sheetName":"sample_employee_details",
+        "countofEmployees":2
+    },
+
+    "leaveData":{
+        "subject":"Family Occusation",
+        "leaveReason":"Attending cousin marriage",
+        "rejectLeave":"Leave cannot be approved due to high-priority project deadlines during the requested period.",
+        "cancelLeave":"Applied by mistake",
+        "status":{
+            "leave": {
+            "approved": "Approved",
+            "rejected": "Rejected",
+            "cancelled": "Cancelled",
+            "pending": "Awaiting"
+            }
+        }
+    },
+
+    "workFromHomeData":{
+        "subject":"Health Issue",
+        "workFromHomeReason":"Suffering with fever",
+         "status":{
+            "wfh": {
+            "approved": "Approved",
+            "rejected": "Rejected",
+            "cancelled": "Cancelled",
+            "pending": "Awaiting"
+            }
+        }
+    },
+
+    "toastMessages":{
+        "createSuccess":"Saved Successfully",
+        "updateSuccess":"Employee Updated Successfully",
+        "deleteSuccess":"Employee Deleted Successfully",
+        "applyLeaveSuccess":"Leave Applied Successfully",
+        "applyWFHSuccess":"WFH Applied Successfully",
+        "rejectLeave":"Leave Rejected",
+        "rejectWFH":"WFH Rejected",
+        "approveLeaveSuccess":"Leave Approved",
+        "approveWFHSuccess":"WFH Approved",
+        "fileUploadSuccess":"File uploaded successfully",
+        "cancelAppliedLeave":"Leave Cancelled successfully",
+        "cancelAppliedWFH":"WFH Cancelled successfully",
+        "clientCreatedSuccess":"Client Added Successfully",
+        "clientUpdateSuccess":"Client Updated Successfully",
+        "clientDeletedSuccess":"Client Deleted Successfully",
+        "projectCreatedSuccess":"Project Added Successfully",
+        "ProjectUpdatedSuccess":"Project Updated Successfully",
+        "projectDeleteSuccess":"Project Deleted Successfully",
+        "assignEmployeeToast":"Employee assigned successfully",
+        "projectClosingToast":"Project Updated successfully",
+        "worklogAddedSuccessToast":"Work log added successfully",
+        "updateWorklogSuccessfully":"Work log updated successfully",
+        "deleteWorklogSuccessfully":"Work log deleted successfully"
+    },
+
+    "notificationTexts":{
+        "requestLeave":"Leave requested by (.+) for (\\d+)",
+        "requestWFH":"WFH requested by (.+) for (\\d+)"
+    },
+
+    "clientData":{
+        "address":"Capital park, Hyderabad",
+        "state":"Telangana",
+        "Country":"India",
+        "clientEmail":"mounika.divamdinneshavuakrla@optimworks.com",
+        "billingEmail":"dsmounikareddy15@gmail.com",
+        "GSTNumber":"12ABCDE3456F7Z8",
+        "UpdateCountry":"Ukraine",
+        "transferMode":"Bank Transfer",
+        "CCEmail":"dsmounikareddy15@gmail.com",
+        "BCCEmail":"mounika.divamdinneshavukarla@otpimworks.com"
+    },
+
+    "projectDetails":{
+        "clientName":"Shiva",
+        "projectName":"Demo",
+        "status":"Active",
+        "currency":"INR",
+        "updateCurrency":"EUR",
+        "clientProjectExperience":"6",
+        "updatedExperience":"8",
+        "serviceType":"Manual Testing",
+        "updatedServiceType":"Automation Testing",
+        "BillingType":"HOURLY",
+        "updatedBillingType":"FIXED",
+        "BillingAmount":"100",
+        "updatedBillingAmount":"1000",
+        "employees":{
+            "emp1":"Jyothi Swaroop",
+            "emp2":"User Mounika"
+        }          
+    },
+
+    "worklogDetails":{
+        "workingHours":"8",
+        "WorkDescription":"Working 8 hours daily",
+        "workStatus":"Working Day",
+        "workDate":"2026-04-30",
+        "status":{
+            "active":"ACTIVE",
+            "pending":"PENDING",
+            "paused":"PAUSED",
+            "closed":"CLOSED"
+        },
+        "updateWorkingHours":"10",
+        "errorMessage":"Future dates are not allowed. Please select a date within the current month",
+        "updateWorkDate":"2026-05-20"
+    },
+
+    "ExpenditureDetails":{
+        "expenditureType":"Team Lunch",
+        "description":"Team members are going out for lunch",
+        "amount":"1000",
+        "samplePdf":"C:/Users/Admin/OneDrive/Pictures/Screenshots/Payslip.png",
+        "expenditureColumns": [ {"key": "type","colId": "expenditureType","header": "Expenditure Type"},
+                                {"key": "description","colId": "description","header": "Description"},
+                                {"key": "date","colId": "date","header": "Date"},
+                                {"key": "amount","colId": "amount","header": "Amount"}],
+
+        "startMonth":"February 2026",
+        "endMonth":"April 2026"
+    }
+}
